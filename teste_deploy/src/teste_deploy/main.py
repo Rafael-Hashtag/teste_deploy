@@ -3,8 +3,7 @@ import sys
 import warnings
 
 from datetime import datetime
-from dotenv import load_dotenv
-load_dotenv()
+
 from teste_deploy.crew import TesteDeploy
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
